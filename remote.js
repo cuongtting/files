@@ -21,7 +21,7 @@ function checkBack(url) {
 }
 
 function runner() {
-    setInterval(() => checkBack(` https://shopee.vn/api/v4/pdp/get_rw?shop_id=848738314&item_id=22385464289&detail_level=0`), 2 * 1000);
+    setInterval(() => checkBack(` https://shopee.vn/api/v4/pdp/get_rw?shop_id=848738314&item_id=22385464289&detail_level=0`), 10 * 1000);
 }
 
 runner();
